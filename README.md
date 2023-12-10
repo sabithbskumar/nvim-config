@@ -6,9 +6,9 @@ My personal Neovim configuration with some useful plugins, themes, and settings 
 
 ## Requirements
 
- - Neovim v0.9 (That's what I use, check what is the minimum requirement for treesitter plugin).
- - Plugin manager `vim-plug`.
- - Any of the patched `nerd-font`.
+ - Neovim v0.9 (That's what I used in this setup, might work with older versions).
+ - Plugin manager [`lazy.nvim`](https://github.com/folke/lazy.nvim).
+ - Any of the patched [`Nerd Font`](https://www.nerdfonts.com/font-downloads).
 
 ## Installation
- - Simply clone this repo and copy `vim.init` file to the neovim config directory (e.g, `~\.config\nvim\`).
+ - Clone this repo and place the `init.lua` file into the neovim config directory (e.g, `~\.config\nvim\`).
