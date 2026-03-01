@@ -27,7 +27,9 @@ require("lazy").setup({
   "NMAC427/guess-indent.nvim",
 
   import("plugins.theme"),
-}, {
+  import("plugins.file-explorer"),
+  import("plugins.buffer-tab"),
+}, { ---@diagnostic disable-line: missing-fields
   ui = {
     icons = vim.g.use_nerd_font and {} or {
       cmd = "⌘",
