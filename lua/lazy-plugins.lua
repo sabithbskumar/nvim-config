@@ -29,6 +29,7 @@ require("lazy").setup({
   import("plugins.theme"),
   import("plugins.file-explorer"),
   import("plugins.buffer-tab"),
+  import("plugins.git-signs"),
   import("plugins.lspconfig"),
   import("plugins.conform"),
   import("plugins.auto-complete"),
