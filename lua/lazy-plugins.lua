@@ -28,6 +28,7 @@ require("lazy").setup({
 
   import("plugins.theme"),
   import("plugins.which-key"),
+  import("plugins.telescope"),
   import("plugins.file-explorer"),
   import("plugins.buffer-tab"),
   import("plugins.git-signs"),
