@@ -32,6 +32,7 @@ require("lazy").setup({
   import("plugins.lspconfig"),
   import("plugins.conform"),
   import("plugins.auto-complete"),
+  import("plugins.mini"),
   import("plugins.treesitter"),
 
   -- Fallback icons
