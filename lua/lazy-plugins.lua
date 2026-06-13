@@ -29,6 +29,10 @@ require("lazy").setup({
   import("plugins.theme"),
   import("plugins.file-explorer"),
   import("plugins.buffer-tab"),
+  import("plugins.lspconfig"),
+  import("plugins.auto-complete"),
+
+  -- Fallback icons
 }, { ---@diagnostic disable-line: missing-fields
   ui = {
     icons = vim.g.use_nerd_font and {} or {
