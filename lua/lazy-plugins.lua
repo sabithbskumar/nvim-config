@@ -27,6 +27,7 @@ require("lazy").setup({
   "NMAC427/guess-indent.nvim",
 
   import("plugins.theme"),
+  import("plugins.which-key"),
   import("plugins.file-explorer"),
   import("plugins.buffer-tab"),
   import("plugins.git-signs"),
@@ -35,6 +36,11 @@ require("lazy").setup({
   import("plugins.auto-complete"),
   import("plugins.mini"),
   import("plugins.treesitter"),
+
+  import("plugins.autopair"),
+  import("plugins.todo-comments"),
+  import("plugins.indent-line"),
+  import("plugins.lint"),
 
   -- Fallback icons
 }, { ---@diagnostic disable-line: missing-fields
