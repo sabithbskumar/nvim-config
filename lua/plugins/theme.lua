@@ -9,7 +9,7 @@ return {
       transparent_background = true,
     },
     init = function()
-      vim.cmd.colorscheme("catppuccin")
+      vim.cmd.colorscheme("catppuccin-nvim")
     end,
   },
 }
