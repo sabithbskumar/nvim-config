@@ -12,6 +12,7 @@ return {
       }
       startify.section.header.opts.hl = "Title"
 
+      -- change the 'MRU' text with '[.]'
       startify.section.mru_cwd.val = function()
         local cwd = vim.fn.getcwd()
         local fnamemodify = vim.fn.fnamemodify
@@ -35,6 +36,16 @@ return {
       startify.file_icons.enabled = false
 
       alpha.setup(startify.config)
+
+      -- autocommand to hide the '~' character
+      vim.api.nvim_create_autocmd("FileType", {
+        pattern = "alpha",
+        callback = function()
+          vim.opt_local.fillchars:append({
+            eob = " ",
+          })
+        end,
+      })
     end,
   },
 }
