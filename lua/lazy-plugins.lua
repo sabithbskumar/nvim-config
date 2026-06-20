@@ -43,6 +43,8 @@ require("lazy").setup({
   import("plugins.indent-line"),
   import("plugins.lint"),
 
+  import("plugins.start-page"),
+
   -- Fallback icons
 }, { ---@diagnostic disable-line: missing-fields
   ui = {
